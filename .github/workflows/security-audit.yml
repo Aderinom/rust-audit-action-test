@@ -1,4 +1,13 @@
 name: Security audit
+github-token:
+  action-input:
+    input: token
+    is-default: false
+  permissions:
+    issues: write
+    issues-reason: to create issues
+    checks: write
+    checks-reason: to create check
 on:
   push:
     paths:
@@ -9,9 +18,6 @@ on:
   workflow_dispatch:
 jobs:
   audit:
-    permissions:
-      contents: read
-      issues: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
