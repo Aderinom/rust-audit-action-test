@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "github-actionss"
+name = "github-actionsss"
 version = "0.1.0"
 dependencies = [
  "id-map",
