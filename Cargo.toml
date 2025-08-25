@@ -1,6 +1,8 @@
 [package]
-name = "github-actions"
+name = "github-actiosns"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+id-map = "0.2.1"
+scc = "2.2.0"
