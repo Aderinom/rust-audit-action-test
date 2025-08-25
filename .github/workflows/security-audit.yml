@@ -1,9 +1,9 @@
 name: Security audit
-
 # Define permissions at the workflow level
 permissions:
   issues: write # For creating issues
   checks: write # For creating check runs
+  contents: read
 
 on:
   push:
