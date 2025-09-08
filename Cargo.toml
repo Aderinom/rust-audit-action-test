@@ -5,4 +5,4 @@ edition = "2024"
 
 [dependencies]
 id-map = "0.2.1"
-scc = "2.1.0"
+scc = "3.0.2"
